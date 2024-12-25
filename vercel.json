@@ -11,6 +11,7 @@
       "dest": "/$1"
     }
   ],
-  "installCommand": "npm install",
-  "buildCommand": "npm run dev"
+  "buildCommand": "npx prisma migrate deploy && npx prisma generate && npm install",
+  "installCommand": "npm install && npm run dev",
+  "framework": "nextjs"
 }
