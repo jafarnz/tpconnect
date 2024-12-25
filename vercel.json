@@ -1,4 +1,5 @@
 {
+  "version": 2,
   "builds": [
     {
       "src": "package.json",
@@ -11,7 +12,7 @@
       "dest": "/$1"
     }
   ],
-  "buildCommand": "npx prisma migrate deploy && npx prisma generate && npm install",
+  "buildCommand": false,
   "installCommand": "npm install && npm run dev",
   "framework": "nextjs"
 }
