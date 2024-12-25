@@ -1,5 +1,12 @@
 {
   "version": 2,
+  "framework": "nextjs",
   "buildCommand": "npx prisma generate",
-  "installCommand": "npm install && npm run dev"
+  "installCommand": "npm install && npm run dev",
+  "builds": [
+    {
+      "src": "next.config.js",
+      "use": "@vercel/next"
+    }
+  ]
 }
