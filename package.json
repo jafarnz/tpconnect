@@ -28,7 +28,7 @@
     "formidable": "^3.5.2",
     "framer-motion": "^10.18.0",
     "jsonwebtoken": "^9.0.2",
-    "next": "14.0.4",
+    "next": "^15.1.2",
     "next-auth": "^4.24.5",
     "nodemailer": "^6.9.16",
     "postcss": "^8.4.32",
