@@ -1,2 +1,3 @@
-temasek poly adev/bdav project
-possible implementation in future
+implementation for project 1
+
+jsut for funs lol
