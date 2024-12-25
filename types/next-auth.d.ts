@@ -12,7 +12,8 @@ declare module 'next-auth' {
       bio?: string | null;
       school?: string | null;
       diploma?: string | null;
-      studentYear?: string | null;
+      studentYear: number;
+      skillsets?: any;
     };
   }
 
@@ -26,7 +27,8 @@ declare module 'next-auth' {
     bio?: string | null;
     school?: string | null;
     diploma?: string | null;
-    studentYear?: string | null;
+    studentYear: number;
+    skillsets?: any;
   }
 }
 
